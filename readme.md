@@ -23,4 +23,11 @@ ans:   When an event happens on an element , it first runs the event on that ele
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 
-ans: 
+ans: Add one lsitener to a common parent instead of adding event listeners to each child element and then detect which child was clicked using event.target
+
+When we use event delegation it gives us better performance because of it use less memory. and it worked for every elements which added on future. which means you don't need to code again for new element. 
+
+
+5. What is the difference between preventDefault() and stopPropagation() methods?
+
+ans:  preventDefault() stops the default browser action like navigation form submit etc. and stopPropagation() stops bubbling up to parent elements
