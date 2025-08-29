@@ -51,7 +51,7 @@
             </div>
         </section>
     </header>
-    <main class="pt-4 bg-[#f5fff6]">
+    <main class="py-4 bg-[#f5fff6]">
         <!-- Container Grid -->
         <section class=" md:mt-10 md:mx-10 mx-auto grid grid-cols-12 gap-8">
             <!-- Directory Container -->
@@ -115,18 +115,28 @@
                 </div>
             </div>
             <!-- Call History Container -->
-            <div class="-call-history-container border-2 border-pink-600 h-dvh col-span-3 pb-6">
+            <div class="-call-history-container col-span-3">
+                <!-- Call History Card Title -->
                 <div class="card w-auto h-full bg-base-100 shadow-sm">
                     <div class="card-body">
-                      <div class="flex justify-between items-center">
-                        <p class="cursor-default">Call History</p>
-                        <button class="h-[32px] py-1 px-3 md:py-3 md:px-8 md:h-[52px] bg-[#00a63e] md:ml-5 rounded-full text-white font-semibold cursor-pointer
-                        "><p class="text-center font-medium text-lg">Clear</p>
-                        </button>
-                      </div>
-                      
+                        <div class="flex justify-between items-center">
+                            <p class="cursor-default">Call History</p>
+                            <button class="btn h-[32px] py-1 px-3 md:py-3 md:px-8 md:h-[52px] bg-[#00a63e] md:ml-5 rounded-full text-white font-semibold cursor-pointer
+                            "><p class="text-center font-medium text-lg">Clear</p>
+                            </button>
+                        </div>
+                      <!-- Call History Cards -->
+                        <div class="history-cards bg-[#FAFAFA] rounded-lg flex justify-between items-center p-4">
+                            <div>
+                                <h2 class="font-semibold text-[18px]">Name</h2>
+                                <p class="text-[18px]">Number</p>
+                            </div>
+                            <div><p class="text-[18px]">time</p></div>
+                        </div>
                     </div>
-                    </div>
+
+                </div>
+                
             </div>
         </section>
     </main>
